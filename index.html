@@ -93,15 +93,21 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
-        <h2 class="mb-5">Who I've Worked For!</h2>
+        <h2 class="mb-5">Who I've Worked With!</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Intern</h3>
             <a href="https://adarshana.com/">
             <div class="subheading mb-3">Adarshana Technology Solutions Private Ltd</div></a>
-            <p>Worked on developing new modules for the existing Android application and also played an active role in debugging multiple critical bugs.
-              Apart from Android, I was tasked with testing the Adarshana smart plug with the current application and was involved in the company's decision-making team.</p>
+            <p><ul>
+              <li>Worked on developing graph modules (MPAndroidChart) for a smart plug that used RESTful calls
+              and displayed the response data for current electricity consumption in a neat visualization.</li>
+              <li>Apart from writing modules, I was tasked with finding critical bugs that caused software freezes
+              mid usage, Testing the smart plug with the latest app, and noted down findings, Helped new recruits with Git usage and repository maintenance.
+              </li>
+            </ul>
+              </p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">December 2018 - March 2019</span>
@@ -122,7 +128,7 @@
             <a href="https://www.uta.edu/"><h3 class="mb-0">University of Texas at Arlington</h3></a>
             <div class="subheading mb-3">Master of Science</div>
             <div>Computer Science - Software Engineer and Database Track</div>
-            <p>GPA: 3.67</p>
+            <p>GPA: 3.8</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">August 2018 - May 2021</span>
@@ -157,8 +163,6 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
       <div class="w-100">
         <h2 class="mb-5">What I'm Good At!</h2>
-
-        <div class="subheading mb-3">Programming and Scripting Languages</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
             <i class="fab fa-java"></i>
@@ -178,6 +182,43 @@
           <li class="list-inline-item">
             <i class="fab fa-android"></i>
           </li>
+          <li class="list-inline-item">
+            <i class="fab fa-docker"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-flask"></i>
+          </li>
+        </ul>
+
+        <div class="subheading mb-3">Programming and Scripting Languages</div>
+        <ul class="fa-ul mb-2">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            JAVA</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            JavaScript</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Python</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            React.js</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            PHP</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Flask</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            XQery</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            XPath</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            XSLT</li>
         </ul>
 
         <div class="subheading mb-3">Database</div>
@@ -191,6 +232,12 @@
           <li>
             <i class="fa-li fa fa-check"></i>
             phpMyAdmin</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            SQLite</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            IDB DB2</li>
         </ul>
 
         <div class="subheading mb-3">Operating System</div>
@@ -206,7 +253,7 @@
             MacOS</li>
         </ul>
 
-        <div class="subheading mb-3">Platforms</div>
+        <div class="subheading mb-3">Platforms, Tools and Services</div>
         <ul class="fa-ul mb-2">
           <li>
             <i class="fa-li fa fa-check"></i>
@@ -217,6 +264,21 @@
           <li>
             <i class="fa-li fa fa-check"></i>
             Amazon Web Services</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            IBM Cloud</li>
+          <li>
+              <i class="fa-li fa fa-check"></i>
+              REST API</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Docker</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Swarm</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Kubernetes</li>
         </ul>
       </div>
     </section>
@@ -229,11 +291,103 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
+            <h3 class="mb-0">Movie Reviews Similarity Analysis</h3>
+            <div class="subheading mb-3">Python, BS4</div>
+            <p> 
+              ● Collected movie information such as title, rank, genre, reviews of the top 50 movies from IBDB, Rotten
+              Tomatoes, and Metacritic by web scraping.<br/>
+              ● Utilized beautiful soup to parse the content and extract necessary tags.<br/>
+              ● Performed cosine similarity analysis across all 3 websites based on the top 50 frequently used words in
+              each website. Also calculated cosine similarity for the genre tags used across the 3 websites.<br/>
+              ● Generated a CSV and SQLite db file with all top 50 movies, rank, genre, website information.  <br/>        
+              </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Nov-Dec’20</span>
+          </div>
+        </div>
+      
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">XML Extraction and Transformation</h3>
+            <div class="subheading mb-3">XPath, XQuery, XSLT</div>
+            <p> 
+              ● Extracted necessary information such as all math courses offered, courses taught in a particular
+              room/professor, etc. using XQuery and XPath from a large XML document containing courses offered in
+              Reed college as part of a web data management course.<br/>
+              ● Utilized Zorba to run XQuery files and print out results.<br/>
+              ● Transformed XML data to XHTML table of all math courses along with the professor, room, and subject
+              using XSLT.<br/>           
+              </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Nov-Dec’20</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Yelpy Restaurant Finder</h3>
+            <div class="subheading mb-3">JavaScript, AJAX, PHP</div>
+            <p> 
+              ● Created a restaurant finder web app using YELP fusion API, which displayed the top 10 restaurants
+              matching search criteria on a Google map.<br/>
+              ● Located the user using Google map API and displayed nearby restaurants.<br/>
+              ● Performed AJAX calls based on location radius and search terms to the YELP API and transformed JSON
+              output to map markers for user convenience.<br/>
+              </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Oct-Nov’20</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Load Testing Using AWS</h3>
+            <div class="subheading mb-3">PHP, phpMyAdmin</div>
+            <p> 
+              ● Hosted a PHP website that populated a user list upon DB request on an AWS EC2 instance which was
+              running a Linux2 OS with LAMP stack.<br/>
+              ● I implemented autoscaling groups and load balancer on that instance to handle the load and create more
+              instances according to the policies set.<br/>
+              ● Applied a load of 100 users using Jmeter on the website to generate large traffic to kick start the
+              autoscaling policies.<br/>   
+              </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Jun-July’20</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Streamy</h3>
+            <div class="subheading mb-3">React.js, Redux</div>
+            <p> 
+              ● Created a streaming app that coordinated with OBS to record user streams.<br/>
+              ● Set up an RTMP (Real-time Messaging Protocol) server to manage and display streams to other viewers.<br/>
+              ● Set up a JSON API server that acts as a database for the streams, and used RestFul conventions to perform
+              CRUD operations.<br/>
+              ● Utilized flv.js library to display OBS stream video on the web browser.<br/>
+              </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Jun-July’19</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
             <h3 class="mb-0">Client-Server FTP architecture</h3>
             <div class="subheading mb-3">Java</div>
-            <p> This project was developed for a distributed system’s course, involving 3 clients and a server
-              running locally on multiple threads handling incoming and outgoing requests. Clients can send, update, delete
-              files that will be updated across other clients in real-time. The project also uses Swing (Jframes) for UI.              
+            <p> 
+              ● This project was developed for a distributed systems course using Java Swing for the frontend,
+              involving 3 concurrent clients and a server running locally on multiple threads handling incoming and
+              outgoing requests. <br/>
+              ● Clients can send, update, delete files that will be updated across other clients in real-time using sockets.<br/>
+              ● Utilized a directory watcher service (WatchService API) to realize addition, deletion, modification of
+              files in the client’s or server’s directory. <br/>
+              ● Implemented a two-phase commit to ensure either all the clients do a particular operation or none of
+              them will perform. <br/>
+                   
               </p>
           </div>
           <div class="resume-date text-md-right">
@@ -244,9 +398,13 @@
           <div class="resume-content">
             <h3 class="mb-0">RIT Online Technology Learning and Certification Program</h3>
             <div class="subheading mb-3">Android</div>
-            <p> It aimed at devising an application that will provide lecture materials on various streams
-              such as computer science, journalism along with a quiz based on the lectures. Upon clearing the quiz, it grants a
-              certificate.
+            <p>● Devised an application that will provide lecture materials on various streams such as computer science,
+              journalism, mechanical engineering, EE, etc. <br/>
+              ● Provided facility to upload lectures onto YouTube and display that content in a RecyclerView to
+              students using YouTube Data API to fetch a list of videos pertaining to the course. <br/>
+              ● Implement a pseudo payment gateway using PayU payment API, for exam registrations. <br/>
+              ● Used FireBase for Authentication, Database, Storage. <br/>
+              
               </p>
           </div>
           <div class="resume-date text-md-right">
@@ -257,9 +415,12 @@
           <div class="resume-content">
             <h3 class="mb-0">Cryptick Messenger</h3>
             <div class="subheading mb-3">Android</div>
-            <p> It aimed at developing a messenger app where you can send 1-to-1 private messages and
-              also provide a facility to add friends, update status, send scheduled messages, encrypted messages and also
-              decrypt messages by using points called ‘ticks’.
+            <p> ● Developed a messenger app where you can send 1-to-1 private messages.<br/>
+              ● Provided a facility to add friends, update status, send scheduled messages, encrypted and decrypt
+              messages.<br/>
+              ● Gamified the app by adding a points system called ‘ticks’ which are consumed on sending/decoding
+              encrypted messages.<br/>
+              ● Used FireBase for Authentication, Database, and Storage.<br/>
               </p>
           </div>
           <div class="resume-date text-md-right">
@@ -303,10 +464,13 @@
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            IMAD (Mobile application development) course on NPTEL (National Programme on Technology Enhanced Learning) (Jul-Sep’17)</li>
+            IMAD (Mobile application development) course on NPTEL (National Programme on Technology Enhanced Learning)</li>
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
             Modern React with Redux 2019 update on Udemy</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+              Docker Mastry: with kubernetes and swarm from a Docker Captain on Udemy</li>
         </ul>
       </div>
     </section>
